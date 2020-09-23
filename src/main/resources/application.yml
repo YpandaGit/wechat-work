@@ -8,9 +8,9 @@ spring:
     time-zone:
       GMT+8
   datasource:
-    url: jdbc:mysql://124.70.156.27:30610/wechat-work?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://124.70.156.27:31097/admin?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
     username: root
-    password: ${PASSWORD}
+    password: s5tDuBAHdy
     driver-class-name: com.mysql.jdbc.Driver
     tomcat:
       test-while-idle: true

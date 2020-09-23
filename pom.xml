@@ -18,10 +18,11 @@
     <properties>
         <java.version>8</java.version>
         <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
-        <hutool-version>5.4.1</hutool-version>
+        <hutool-version>5.4.3</hutool-version>
         <openapi-version>1.4.6</openapi-version>
         <fastjson-version>1.2.73</fastjson-version>
         <contiperf-version>2.3.4</contiperf-version>
+        <skipTests>true</skipTests>
     </properties>
 
     <dependencies>

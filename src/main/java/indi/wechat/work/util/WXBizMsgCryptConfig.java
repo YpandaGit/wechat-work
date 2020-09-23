@@ -29,33 +29,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Configuration
 @Slf4j
-@RefreshScope
-@Data
 public class WXBizMsgCryptConfig {
-    /**
-     * 外部联系事件回调url前缀
-     */
-    @Value("${qywechat.app.extra-callback-url}")
-    String extraCallbackUrl;
-
-    @Value("${qywechat.app.token}")
-    String appToken;
-
-    @Value("${qywechat.app.encoding-aes-key}")
-    String appEncodingAesKey;
-
-    @Value("${qywechat.app.corpid}")
-    String appCorpId;
-
-    @Value("${qywechat.app.suiteid}")
-    String appSuiteId;
-
-    @Value("${qywechat.app.secret}")
-    String appSecret;
-
-    @Value("${qywechat.app.provider-secret}")
-    String providerSecret;
-
     
     /**
      * 单例动态构建解密器
