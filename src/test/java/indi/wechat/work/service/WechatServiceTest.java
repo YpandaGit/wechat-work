@@ -29,8 +29,8 @@ public class WechatServiceTest {
 	@PerfTest(invocations = 100, threads = 10)
 	@Required(max = 400, average = 150)
 	public void testGetAccessToken() {
-		String corpId = "ww751198e5ade84f15";
-		String secret = "s5bXGMaOEQkZUetpSx3B_FODtLJiBDRgORQlTn6e-q8";
+		String corpId = "ww751198e5ade84f15231";
+		String secret = "s5bXGMaOEQkZUetpSx3B_FODtLJiBDRgORQlTn6e-q1238";
 //		String accessToken = wechatService.getAccessToekn(corpId, secret);
 //		log.info("access_token:{}", accessToken);
 		contactService.getDepartments(corpId, secret);
